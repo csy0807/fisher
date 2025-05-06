@@ -1,10 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-Hant">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <title>登入 - Outlook</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-$END$
+<div class="login-container">
+    <img src="assets/microsoft_logo_564db913a7fa0ca42727161c6d031bef.svg" alt="Microsoft Logo" class="logo">
+    <h2>登入</h2>
+    <form id="login-form">
+        <label for="email">電子郵件、電話或 Skype</label>
+        <input type="text" id="email" name="email" placeholder="someone@example.com" required>
+        <p class="error-msg" id="error-msg"></p>
+        <button type="submit">下一步</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
